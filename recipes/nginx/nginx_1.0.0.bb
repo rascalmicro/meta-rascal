@@ -3,6 +3,7 @@ HOMEPAGE = "http://wiki.nginx.org"
 SECTION = "net"
 PRIORITY = "optional"
 LICENSE = "BSD"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=b06b69c53c7ac41d8d6698957ed6a71b"
 PR = "r0"
 
 SRC_URI = "http://nginx.org/download/nginx-${PV}.tar.gz \

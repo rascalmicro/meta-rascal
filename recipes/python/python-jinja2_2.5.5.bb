@@ -3,6 +3,7 @@ HOMEPAGE = "http://jinja.pocoo.org/"
 SECTION = "devel/python"
 PRIORITY = "optional"
 LICENSE = "BSD"
+LIC_FILES_CHKSUM = "file://setup.py;beginline=79;endline=79;md5=78b7a26a3d578c358ff10ec697d19553"
 SRCNAME = "jinja2"
 PR = "r0"
 

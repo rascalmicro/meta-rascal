@@ -1,6 +1,8 @@
-require recipes/images/minimal-image.bb
+DISTRO_SSH_DAEMON ?= "openssh"
 
-IMAGE_INSTALL += "\
+IMAGE_PREPROCESS_COMMAND = "create_etc_timestamp"
+
+IMAGE_INSTALL = "task-boot \
         ack \
         avahi-daemon \
         binutils \
@@ -13,7 +15,6 @@ IMAGE_INSTALL += "\
         git \
         htop \
         i2c-tools \
-        iotop \
         iperf \
         libgcc-dev \
         libxml2 \
@@ -26,7 +27,6 @@ IMAGE_INSTALL += "\
         perl \
         perl-modules \
         python \
-        python-daemon \
         python-flask \
         python-jinja2 \
         python-misc \
@@ -34,13 +34,12 @@ IMAGE_INSTALL += "\
         python-pyserial \
         python-pytronics \
         python-werkzeug \
-        ruby \
         sysstat \
         usbutils \
-        usb-gadget-mode \
         uwsgi \
         vim \
         vim-vimrc \
     "
-
 export IMAGE_BASENAME = "rascal-image"
+
+inherit image

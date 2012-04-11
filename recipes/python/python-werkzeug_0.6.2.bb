@@ -3,6 +3,7 @@ HOMEPAGE = "http://werkzeug.pocoo.org"
 SECTION = "devel/python"
 PRIORITY = "optional"
 LICENSE = "BSD"
+LIC_FILES_CHKSUM = "file://setup.py;beginline=63;endline=63;md5=37705f6d402f917242bac35f9d6e3f4b"
 SRCNAME = "werkzeug"
 PR = "r0"
 

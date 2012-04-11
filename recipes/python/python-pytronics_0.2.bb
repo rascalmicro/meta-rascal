@@ -3,6 +3,7 @@ HOMEPAGE = "http://rascalmicro.com"
 SECTION = "devel/python"
 PRIORITY = "optional"
 LICENSE = "GPLv3"
+LIC_FILES_CHKSUM = "file://setup.py;beginline=7;endline=7;md5=c9902fd2fffc7a69230abe2ddedab49f"
 SRCNAME = "pytronics"
 PR = "r0"
 

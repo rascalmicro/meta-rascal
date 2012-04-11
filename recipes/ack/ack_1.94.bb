@@ -2,6 +2,7 @@ DESCRIPTION = "Ack is a tool like grep, designed for programmers with large tree
 HOMEPAGE = "http://betterthangrep.com"
 PRIORITY = "optional"
 LICENSE = "Artistic License 2.0"
+LIC_FILES_CHKSUM = "file://README.markdown;beginline=42;endline=47;md5=2c2a8952c52d13c139acfd32353f60b0"
 
 RDEPENDS = "perl perl-modules"
 PR = "r0"
